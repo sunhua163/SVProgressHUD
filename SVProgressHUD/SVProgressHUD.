@@ -142,6 +142,7 @@ typedef void (^SVProgressHUDDismissCompletion)(void);
 + (BOOL)isVisible;
 
 + (NSTimeInterval)displayDurationForString:(nullable NSString*)string;
-
+// 为了方便初始化_statusLabel样式
+- (void)initallStatusLableAndImageView;
 @end
 
