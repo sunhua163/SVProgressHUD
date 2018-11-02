@@ -1302,6 +1302,11 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
     return _imageView;
 }
 
+// 为了方便初始化_statusLabel样式
+- (void)initallStatusLableAndImageView {
+    _statusLabel = nil;
+    _imageView = nil;
+}
 
 #pragma mark - Helper
     
